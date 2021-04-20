@@ -17,7 +17,7 @@ function Layout({ children, title }: Props) {
 
       <main className="my-8 mx-14 lg:my-16 lg:mx-24">{children}</main>
 
-      <footer className="flex w-full h-24 bg-pink-500 justify-center text-white text-xl items-center">
+      <footer className="flex w-full h-24 bg-pink-500 justify-center text-white text-xl font-bold items-center">
         <span>Kôlnička 2021</span>
       </footer>
     </div>
