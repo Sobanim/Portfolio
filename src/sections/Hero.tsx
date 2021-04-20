@@ -9,7 +9,7 @@ function Hero() {
         <Image src="/images/harold-profile.jpg" width="250px" height="250px" />
       </div>
       <div className="flex flex-col lg:w-2/3 items-center lg:items-start">
-        <h2 className="text-6xl font-bold text-pink-500 pb-3">
+        <h2 className="text-4xl font-bold text-pink-500 pb-3">
           Dmytro Soboliev
         </h2>
 
