@@ -7,7 +7,12 @@ function Hero() {
   return (
     <div className="flex flex-col lg:flex-row">
       <div className="flex justify-center lg:w-1/3">
-        <Image src="/images/harold-profile.jpg" width="250px" height="250px" />
+        <Image
+          className="rounded-full"
+          src="/images/harold-profile.jpg"
+          width="250px"
+          height="250px"
+        />
       </div>
       <div className="flex flex-col lg:w-2/3 items-center lg:items-start">
         <Subtitle subtitle="Dmytro Soboliev" />
