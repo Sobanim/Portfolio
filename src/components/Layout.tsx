@@ -13,11 +13,21 @@ function Layout({ children, title }: Props) {
         <title>{title}</title>
       </Head>
 
-      <header className="h-40 w-full bg-pink-500" />
+      <header className="flex justify-between px-14 lg:px-24 items-center h-16 w-full bg-customWhite">
+        <div className="w-16">
+          <img src="/images/Logo_DS.svg" />
+        </div>
+        <nav>
+          <span>Main Page</span>
+          <span>Main Page</span>
+          <span>Main Page</span>
+          <span>Main Page</span>
+        </nav>
+      </header>
 
       <main className="my-8 mx-14 lg:my-16 lg:mx-24">{children}</main>
 
-      <footer className="flex w-full h-24 bg-pink-500 justify-center text-white text-xl font-bold items-center">
+      <footer className="flex w-full h-24 bg-customGreen justify-center text-white text-xl font-bold items-center">
         <span>Kôlnička 2021</span>
       </footer>
     </div>

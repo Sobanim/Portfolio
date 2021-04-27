@@ -8,7 +8,7 @@ type Props = {
 
 function Skills({ skills }: Props) {
   return (
-    <div className="my-16 p-6  border-2 border-pink-500">
+    <div className="my-16 p-6  border-2 border-customGreen">
       <Subtitle subtitle="My skillset" />
       <ul className="mt-2 lg:flex lg:flex-wrap">
         {skills.map((skill) => (

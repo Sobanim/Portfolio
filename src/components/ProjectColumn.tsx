@@ -4,7 +4,7 @@ type Props = {
 
 function ProjectColumn({ children }: Props) {
   return (
-    <div className="flex flex-col lg:w-1/2 lg:first:border-r-2 border-pink-500">
+    <div className="flex flex-col lg:w-1/2 lg:first:border-r-2 border-customGreen">
       {children}
     </div>
   );
