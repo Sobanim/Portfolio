@@ -3,7 +3,7 @@ type Props = {
 };
 
 function Title({ title }: Props) {
-  return <h1 className="text-5xl font-bold text-customGreen pb-3">{title}</h1>;
+  return <h1 className="text-5xl font-bold text-customGreen pb-2">{title}</h1>;
 }
 
 export default Title;

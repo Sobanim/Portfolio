@@ -25,11 +25,7 @@ function ProjectDetail({ projectData }: Props) {
           label: technology,
         }))}
       />
-      <div>
-        {projectData.technologies.map((technology) => (
-          <span key={technology}>{technology}</span>
-        ))}
-      </div>
+
       <div className="flex flex-col lg:flex-row">
         {projectData.images.map((image, index) => (
           <div key={index} className="relative w-full my-2 lg:mr-2">

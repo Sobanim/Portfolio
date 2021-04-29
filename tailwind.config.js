@@ -8,6 +8,9 @@ module.exports = {
         customWhite: '#fcfcfc',
         customGreen: '#3b846e',
       },
+      fontFamily: {
+        pt: ['PT Sans', 'sans-serif'],
+      },
     },
   },
   variants: {

@@ -9,9 +9,13 @@ type Props = {
 
 function Layout({ children, title }: Props) {
   return (
-    <div className="flex flex-col min-h-screen py-0 justify-center items-center">
+    <div className="flex flex-col min-h-screen py-0 justify-center font-pt">
       <Head>
         <title>{title}</title>
+        <link
+          href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
       </Head>
 
       <header className="flex justify-between px-14 lg:px-24 items-center h-20 w-full bg-customWhite">
@@ -33,7 +37,7 @@ function Layout({ children, title }: Props) {
       <main className="my-8 mx-14 lg:my-16 lg:mx-24">{children}</main>
 
       <footer className="flex w-full h-24 mt-auto bg-customGreen justify-center text-white text-xl font-bold items-center">
-        <span>Kôlnička 2021</span>
+        <span>Copyright © Dmytro Soboliev</span>
       </footer>
     </div>
   );
