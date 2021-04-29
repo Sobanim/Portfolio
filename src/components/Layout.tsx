@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import React from 'react';
 
 type Props = {
@@ -13,9 +14,13 @@ function Layout({ children, title }: Props) {
         <title>{title}</title>
       </Head>
 
-      <header className="flex justify-between px-14 lg:px-24 items-center h-16 w-full bg-customWhite">
-        <div className="w-16">
-          <img src="/images/Logo_DS.svg" />
+      <header className="flex justify-between px-14 lg:px-24 items-center h-20 w-full bg-customWhite">
+        <div className="w-20">
+          <Link href="/">
+            <a href="/">
+              <img src="/images/Logo_DS.svg" />
+            </a>
+          </Link>
         </div>
         <nav>
           <span>Main Page</span>
@@ -27,7 +32,7 @@ function Layout({ children, title }: Props) {
 
       <main className="my-8 mx-14 lg:my-16 lg:mx-24">{children}</main>
 
-      <footer className="flex w-full h-24 bg-customGreen justify-center text-white text-xl font-bold items-center">
+      <footer className="flex w-full h-24 mt-auto bg-customGreen justify-center text-white text-xl font-bold items-center">
         <span>Kôlnička 2021</span>
       </footer>
     </div>

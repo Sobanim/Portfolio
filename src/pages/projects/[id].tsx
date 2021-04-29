@@ -1,7 +1,10 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
+import Image from 'next/image';
 import { getAllProjectIds, getProjectData } from '../../../lib/projects';
+import InfoBar from '../../components/InfoBar';
 import Layout from '../../components/Layout';
 import Subtitle from '../../components/Subtitle';
+import Title from '../../components/Title';
 import { Project } from '../../types';
 
 type Props = {
@@ -11,15 +14,32 @@ type Props = {
 function ProjectDetail({ projectData }: Props) {
   return (
     <Layout title={`Project | ${projectData.name}`}>
-      <h1>{projectData.name}</h1>
-      <Subtitle subtitle="Subtitle" />
+      <Title title={projectData.name} />
 
-      <p>{projectData.description}</p>
+      <p className="my-4 text-lg leading-6">{projectData.description}</p>
 
       <Subtitle subtitle="Project showcase" />
+
+      <InfoBar
+        infos={projectData.technologies.map((technology) => ({
+          label: technology,
+        }))}
+      />
       <div>
         {projectData.technologies.map((technology) => (
           <span key={technology}>{technology}</span>
+        ))}
+      </div>
+      <div className="flex flex-col lg:flex-row">
+        {projectData.images.map((image, index) => (
+          <div key={index} className="relative w-full my-2 lg:mr-2">
+            <Image
+              src={image}
+              layout="responsive"
+              width="1920px"
+              height="1080px"
+            />
+          </div>
         ))}
       </div>
     </Layout>
