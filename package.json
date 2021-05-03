@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build && next export",
+    "export": "next export",
     "start": "next start",
     "type-check": "tsc",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
