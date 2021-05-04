@@ -1,13 +1,20 @@
 [
   {
-    "id": "hakkastack",
-    "name": "Hakkastack",
+    "id": "livis",
+    "name": "Livi's | Kitchen & Catering",
     "description": "Innovation, R&D and long-term service delivery in Bespoke Software Development, Quality Assurance, Added Value IT Consulting and Mechanical Design Engineering",
-    "technologies": ["CSS", "React", "HTML", "JavaScript", "MySQL", "Git"],
+    "technologies": [
+      "HTML 5",
+      "SCSS",
+      "JavaScript",
+      "Git",
+      "MK Lightbox library"
+    ],
+    "link": "../data/projects/liviscatering/index.html",
     "images": [
-      "/images/project-showcase.jpg",
-      "/images/project-showcase.jpg",
-      "/images/project-showcase.jpg"
+      "/images/projects/LivisCatering/1.png",
+      "/images/projects/LivisCatering/2.png",
+      "/images/projects/LivisCatering/3.png"
     ]
   },
   {

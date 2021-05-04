@@ -8,6 +8,7 @@ export type Project = {
   timeEnd: string;
   technologies: string[];
   images: string[];
+  link: string;
 };
 
 export type Skill = {

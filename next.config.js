@@ -1,6 +1,1 @@
-module.exports = {
-  images: {
-    loader: 'cloudinary',
-    path: 'https://res.cloudinary.com/dolsbi5ac',
-  },
-};
+module.exports = { trailingSlash: true };

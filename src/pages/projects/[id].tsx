@@ -38,6 +38,7 @@ function ProjectDetail({ projectData }: Props) {
           </div>
         ))}
       </div>
+      <div>{projectData.link}</div>
     </Layout>
   );
 }
