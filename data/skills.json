@@ -1,26 +1,26 @@
 [
   {
     "name": "HTML",
+    "level": 7
+  },
+  {
+    "name": "SCSS",
     "level": 8
   },
   {
-    "name": "CSS",
+    "name": "JavaScript",
     "level": 6
   },
   {
     "name": "React",
-    "level": 10
-  },
-  {
-    "name": "Next.js",
     "level": 5
   },
   {
-    "name": "TypeScript",
+    "name": "Tailwind",
     "level": 7
   },
   {
-    "name": "Tailwind",
-    "level": 3
+    "name": "Git",
+    "level": 8
   }
 ]

@@ -1,5 +1,6 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
 import Image from 'next/image';
+import Link from 'next/link';
 import { getAllProjectIds, getProjectData } from '../../../lib/projects';
 import InfoBar from '../../components/InfoBar';
 import Layout from '../../components/Layout';
@@ -31,6 +32,7 @@ function ProjectDetail({ projectData }: Props) {
           <div key={index} className="relative w-full my-2 lg:mr-2">
             <Image
               src={image}
+              decoding="async"
               layout="responsive"
               width="1920px"
               height="1080px"
@@ -38,7 +40,11 @@ function ProjectDetail({ projectData }: Props) {
           </div>
         ))}
       </div>
-      <div>{projectData.link}</div>
+      <div>
+        <Link href={projectData.link} passHref={true}>
+          <a>View the project</a>
+        </Link>
+      </div>
     </Layout>
   );
 }

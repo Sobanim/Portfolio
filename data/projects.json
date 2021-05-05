@@ -2,15 +2,16 @@
   {
     "id": "livis",
     "name": "Livi's | Kitchen & Catering",
-    "description": "Innovation, R&D and long-term service delivery in Bespoke Software Development, Quality Assurance, Added Value IT Consulting and Mechanical Design Engineering",
+    "description": "Test task from some company. Also, I use js library for gallery",
     "technologies": [
       "HTML 5",
       "SCSS",
       "JavaScript",
       "Git",
-      "MK Lightbox library"
+      "MK Lightbox library",
+      "BEM"
     ],
-    "link": "../data/projects/liviscatering/index.html",
+    "link": "/projects/liviscatering/index.html",
     "images": [
       "/images/projects/LivisCatering/1.png",
       "/images/projects/LivisCatering/2.png",
@@ -18,60 +19,39 @@
     ]
   },
   {
-    "id": "sky-is-the-limit",
-    "name": "Sky is the limit",
-    "description": "Description not needed. Take a look at technologies. Kneel before me.",
-    "technologies": [
-      "AWS",
-      "React",
-      "Vue",
-      "Angular 1.0",
-      "Vanilla JS",
-      "JQuery",
-      "Java",
-      "C#",
-      "Kubernetes",
-      "Docker",
-      "Serverless",
-      "S3",
-      "Scalable",
-      "Scalable Docker"
-    ],
+    "id": "js-game",
+    "name": "JavaScript Game",
+    "description": "As I was improving my JS knowledge, I had to add a random color for the rectangle as my homework. But I had a few more ideas to add to the game (user game scoreboard, user name query, complexity committee, global user ratings).",
+    "technologies": ["HTML", "CSS", "JavaScript ES6", "Git", "Google FireBase"],
+    "link": "/projects/js-game/index.html",
     "images": [
-      "/images/project-showcase.jpg",
-      "/images/project-showcase.jpg",
-      "/images/project-showcase.jpg"
+      "/images/projects/JavaScript-game/1.png",
+      "/images/projects/JavaScript-game/2.png",
+      "/images/projects/JavaScript-game/3.png"
     ]
   },
   {
-    "id": "ice-cream-castle-extra",
-    "name": "Ice Cream Castle Extra",
-    "description": "After this job I got Diabetes. Not sweet.",
-    "technologies": [
-      "Cake",
-      "Twix",
-      "Snickers",
-      "Sugar",
-      "Chocolate",
-      "JawCrusher",
-      "Megatron",
-      "Optimus Prime"
-    ],
+    "id": "marketika",
+    "name": "Marketika",
+    "description": "Created from free template, without adaptive and mobile version",
+    "technologies": ["HTML", "CSS", "JavaScript", "Git"],
+    "link": "/projects/marketiga-landing/index.html",
     "images": [
-      "/images/project-showcase.jpg",
-      "/images/project-showcase.jpg",
-      "/images/project-showcase.jpg"
+      "/images/projects/Marketika/1.png",
+      "/images/projects/Marketika/2.png",
+      "/images/projects/Marketika/3.png"
     ]
   },
   {
-    "id": "brokerage-clerk",
-    "name": "Brokerage clerk",
-    "description": "01010100 01101111 01101111 00100000 01101100 01100001 01111010 01111001 00100000 01110100 01101111 00100000 01100011 01110010 01100101 01100001 01110100 01100101 00100000 01110011 01101111 01101101 01100101 00100000 01100100 01100101 01110011 01100011 01110010 01101001 01110000 01110100 01101001 01101111 01101110",
-    "technologies": ["Binary"],
+    "id": "test",
+    "name": "Vital' | Natural Beauty",
+    "description": "Created from free template",
+    "technologies": ["HTML", "CSS", "JavaScript", "Git"],
+    "link": "/projects/landing-webproject/index.html",
     "images": [
-      "/images/project-showcase.jpg",
-      "/images/project-showcase.jpg",
-      "/images/project-showcase.jpg"
+      "/images/projects/VitalBeauty/1.png",
+      "/images/projects/VitalBeauty/2.png",
+      "/images/projects/VitalBeauty/3.png"
     ]
   }
 ]
