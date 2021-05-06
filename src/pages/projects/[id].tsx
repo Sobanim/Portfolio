@@ -1,6 +1,5 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
 import Image from 'next/image';
-import Link from 'next/link';
 import { getAllProjectIds, getProjectData } from '../../../lib/projects';
 import InfoBar from '../../components/InfoBar';
 import Layout from '../../components/Layout';
@@ -21,11 +20,23 @@ function ProjectDetail({ projectData }: Props) {
 
       <Subtitle subtitle="Project showcase" />
 
-      <InfoBar
-        infos={projectData.technologies.map((technology) => ({
-          label: technology,
-        }))}
-      />
+      <div className="flex justify-between">
+        <InfoBar
+          infos={projectData.technologies.map((technology) => ({
+            label: technology,
+          }))}
+        />
+        <div>
+          <a
+            href={projectData.github}
+            target="_blank"
+            className="text-customGreen hover:underline"
+            rel="noreferrer"
+          >
+            <i>Source Code</i>
+          </a>
+        </div>
+      </div>
 
       <div className="flex flex-col lg:flex-row">
         {projectData.images.map((image, index) => (
@@ -40,10 +51,15 @@ function ProjectDetail({ projectData }: Props) {
           </div>
         ))}
       </div>
-      <div>
-        <Link href={projectData.link} passHref={true}>
-          <a>View the project</a>
-        </Link>
+      <div className="text-center mt-16 ">
+        <a
+          href={projectData.link}
+          target="_blank"
+          className="inline-block text-customWhite bg-customGreen p-4 rounded-lg transform transition duration-500 hover:scale-110 hover:shadow-2xl"
+          rel="noreferrer"
+        >
+          View the project
+        </a>
       </div>
     </Layout>
   );

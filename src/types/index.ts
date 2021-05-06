@@ -9,6 +9,7 @@ export type Project = {
   technologies: string[];
   images: string[];
   link: string;
+  github: string;
 };
 
 export type Skill = {

@@ -12,10 +12,11 @@
       "BEM"
     ],
     "link": "https://sobanim.github.io/Projects/liviscatering/index.html",
+    "github": "https://github.com/Sobanim/liviscatering",
     "images": [
-      "/images/projects/LivisCatering/1.png",
-      "/images/projects/LivisCatering/2.png",
-      "/images/projects/LivisCatering/3.png"
+      "/images/projects/LivisCatering/1.jpg",
+      "/images/projects/LivisCatering/2.jpg",
+      "/images/projects/LivisCatering/3.jpg"
     ]
   },
   {
@@ -24,6 +25,7 @@
     "description": "As I was improving my JS knowledge, I had to add a random color for the rectangle as my homework. But I had a few more ideas to add to the game (user game scoreboard, user name query, complexity committee, global user ratings).",
     "technologies": ["HTML", "CSS", "JavaScript ES6", "Git", "Google FireBase"],
     "link": "https://sobanim.github.io/Projects/js-game/index.html",
+    "github": "https://github.com/Sobanim/Simple-JavaScript-Game",
     "images": [
       "/images/projects/JavaScript-game/1.png",
       "/images/projects/JavaScript-game/2.png",
@@ -34,24 +36,26 @@
     "id": "marketika",
     "name": "Marketika",
     "description": "Created from free template, without adaptive and mobile version",
-    "technologies": ["HTML", "CSS", "JavaScript", "Git"],
+    "technologies": ["HTML", "CSS", "BEM", "Git"],
     "link": "https://sobanim.github.io/Projects/marketiga-landing/index.html",
+    "github": "https://github.com/Sobanim/Marketiga-landing",
     "images": [
-      "/images/projects/Marketika/1.png",
-      "/images/projects/Marketika/2.png",
-      "/images/projects/Marketika/3.png"
+      "/images/projects/Marketika/1.jpg",
+      "/images/projects/Marketika/2.jpg",
+      "/images/projects/Marketika/3.jpg"
     ]
   },
   {
-    "id": "test",
+    "id": "vital-beauty",
     "name": "Vital' | Natural Beauty",
     "description": "Created from free template",
     "technologies": ["HTML", "CSS", "JavaScript", "Git"],
     "link": "https://sobanim.github.io/Projects/landing-webproject/index.html",
+    "github": "https://github.com/Sobanim/landing-webproject",
     "images": [
-      "/images/projects/VitalBeauty/1.png",
-      "/images/projects/VitalBeauty/2.png",
-      "/images/projects/VitalBeauty/3.png"
+      "/images/projects/VitalBeauty/1.jpg",
+      "/images/projects/VitalBeauty/2.jpg",
+      "/images/projects/VitalBeauty/3.jpg"
     ]
   }
 ]
