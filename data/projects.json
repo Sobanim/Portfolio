@@ -11,7 +11,7 @@
       "MK Lightbox library",
       "BEM"
     ],
-    "link": "/projects/liviscatering/index.html",
+    "link": "https://sobanim.github.io/Projects/liviscatering/index.html",
     "images": [
       "/images/projects/LivisCatering/1.png",
       "/images/projects/LivisCatering/2.png",
@@ -23,7 +23,7 @@
     "name": "JavaScript Game",
     "description": "As I was improving my JS knowledge, I had to add a random color for the rectangle as my homework. But I had a few more ideas to add to the game (user game scoreboard, user name query, complexity committee, global user ratings).",
     "technologies": ["HTML", "CSS", "JavaScript ES6", "Git", "Google FireBase"],
-    "link": "/projects/js-game/index.html",
+    "link": "https://sobanim.github.io/Projects/js-game/index.html",
     "images": [
       "/images/projects/JavaScript-game/1.png",
       "/images/projects/JavaScript-game/2.png",
@@ -35,7 +35,7 @@
     "name": "Marketika",
     "description": "Created from free template, without adaptive and mobile version",
     "technologies": ["HTML", "CSS", "JavaScript", "Git"],
-    "link": "/projects/marketiga-landing/index.html",
+    "link": "https://sobanim.github.io/Projects/marketiga-landing/index.html",
     "images": [
       "/images/projects/Marketika/1.png",
       "/images/projects/Marketika/2.png",
@@ -47,7 +47,7 @@
     "name": "Vital' | Natural Beauty",
     "description": "Created from free template",
     "technologies": ["HTML", "CSS", "JavaScript", "Git"],
-    "link": "/projects/landing-webproject/index.html",
+    "link": "https://sobanim.github.io/Projects/landing-webproject/index.html",
     "images": [
       "/images/projects/VitalBeauty/1.png",
       "/images/projects/VitalBeauty/2.png",
