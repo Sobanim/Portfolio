@@ -2,7 +2,7 @@
   {
     "id": "livis",
     "name": "Livi's | Kitchen & Catering",
-    "description": "Test task from some company. Also, I use js library for gallery",
+    "description": "Livi's it is web-page with gallery, contact form. I adapted the site for mobile devices myself. For gallery I use MK Lightbox js library",
     "technologies": [
       "HTML 5",
       "SCSS",
@@ -22,7 +22,7 @@
   {
     "id": "js-game",
     "name": "JavaScript Game",
-    "description": "As I was improving my JS knowledge, I had to add a random color for the rectangle as my homework. But I had a few more ideas to add to the game (user game scoreboard, user name query, complexity committee, global user ratings).",
+    "description": "Homework for the Javascript course. I expanded this homework assignment by adding difficulty selection, local and global leaderboards. Global leaderboards is stored in Realtime Google Firebase. ",
     "technologies": ["HTML", "CSS", "JavaScript ES6", "Git", "Google FireBase"],
     "link": "https://sobanim.github.io/Projects/js-game/index.html",
     "github": "https://github.com/Sobanim/Simple-JavaScript-Game",
@@ -35,7 +35,7 @@
   {
     "id": "marketika",
     "name": "Marketika",
-    "description": "Created from free template, without adaptive and mobile version",
+    "description": "Created from free Figma template, without adaptive and mobile version",
     "technologies": ["HTML", "CSS", "BEM", "Git"],
     "link": "https://sobanim.github.io/Projects/marketiga-landing/index.html",
     "github": "https://github.com/Sobanim/Marketiga-landing",
@@ -48,8 +48,8 @@
   {
     "id": "vital-beauty",
     "name": "Vital' | Natural Beauty",
-    "description": "Created from free template",
-    "technologies": ["HTML", "CSS", "JavaScript", "Git"],
+    "description": "Created using Gulp toolkit to automatically build html scss and js files into a single project. I used modules like browsersync, fileinclude, autoprefixer, clean css, imageMin, groupMedia.",
+    "technologies": ["HTML", "SCSS", "JavaScript", "Gulp", "Git"],
     "link": "https://sobanim.github.io/Projects/landing-webproject/index.html",
     "github": "https://github.com/Sobanim/landing-webproject",
     "images": [
