@@ -14,7 +14,12 @@ function InfoBar({ infos }: Props) {
         if (info.link) {
           return (
             <InfoBarItem key={index} hasPipe={hasPipe}>
-              <a href={info.link} title={info.label}>
+              <a
+                href={info.link}
+                title={info.label}
+                target="_blanck"
+                rel="noreferrer"
+              >
                 {info.label}
               </a>
             </InfoBarItem>

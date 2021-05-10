@@ -8,7 +8,7 @@ function Hero() {
     <div className="flex flex-col lg:flex-row">
       <div className="flex justify-center lg:w-1/3">
         <Image
-          className="rounded-full"
+          className="rounded-full w-16"
           src="/images/profile-photo.jpg"
           width="250px"
           height="250px"
@@ -28,23 +28,28 @@ function Hero() {
               link: 'tel:+421951125682',
             },
             {
-              label: 'Github',
+              label: 'LinkedIn profile',
+              link: 'https://www.linkedin.com/in/dmytro-soboliev/?locale=en_US',
+            },
+            {
+              label: 'Github profile',
               link: 'https://github.com/Sobanim?tab=repositories',
             },
           ]}
         />
 
         <div className="my-3">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis numquam
-          temporibus, neque vel quos laborum quidem, corrupti molestias quod
-          deleniti unde obcaecati at pariatur? Vel, illum numquam et libero
-          atque inventore delectus maiores, pariatur id vero sed sunt sint dicta
-          optio qui earum. Voluptatum veniam nostrum saepe ullam repellat
-          sapiente.
+          <p>
+            I am a junior frontend developer; I create a web user interface UI /
+            UX and through it I build effective communication with the user. I
+            will create the necessary good website for your company, which can
+            work effectively on various devices. I quickly learn the development
+            of web applications and apply new knowledge in practice.
+          </p>
         </div>
         <InfoBar
           infos={[
-            { label: 'Kosice' },
+            { label: 'Košice' },
             { label: 'Slovakia' },
             { label: '040 11' },
           ]}
