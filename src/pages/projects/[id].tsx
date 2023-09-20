@@ -45,8 +45,9 @@ function ProjectDetail({ projectData }: Props) {
               src={image}
               decoding="async"
               layout="responsive"
-              width="1920px"
-              height="1080px"
+              width="1920"
+              height="1080"
+              alt={projectData.name}
             />
           </div>
         ))}
