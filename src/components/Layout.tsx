@@ -58,9 +58,7 @@ function Layout({ children, title }: Props) {
       <header className="flex justify-between px-4 lg:px-36 items-center h-20 w-full bg-customWhite">
         <div className="w-20 mx-auto sm:mx-0">
           <Link href="/">
-            <a href="/">
-              <img src="/images/Logo_DS.svg" alt="My logo" />
-            </a>
+            <img src="/images/Logo_DS.svg" alt="My logo" />
           </Link>
         </div>
         {/* <nav>

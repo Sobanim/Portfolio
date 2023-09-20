@@ -8,10 +8,11 @@ function Hero() {
     <div className="flex flex-col lg:flex-row">
       <div className="flex justify-center lg:w-1/3">
         <Image
-          className="rounded-full w-16"
+          className="rounded-full"
           src="/images/profile-photo.jpg"
-          width="250px"
-          height="250px"
+          width={250}
+          height={250}
+          alt={'Hero photo'}
         />
       </div>
       <div className="flex flex-col lg:w-2/3 items-center lg:items-start">
