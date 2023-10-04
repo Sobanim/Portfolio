@@ -57,5 +57,15 @@
       "/images/projects/VitalBeauty/2.jpg",
       "/images/projects/VitalBeauty/3.jpg"
     ]
+  },
+  {
+    "id": "Pokedex",
+    "name": "Pokedex",
+    "description": "This is my pet project - Pokédex. The project uses the free API pokeapi.co. In this project I used the following technologies: Typescript, React, Material UI and Axios. Also I use fast-average-color library for generating background color for pokemons.",
+    "technologies": ["TypeScript", "React", "Material UI", "Axios", "pokeapi"],
+    "link": "https://pokedex-flame-ten.vercel.app/",
+    "github": "https://github.com/Sobanim/pokedex",
+    "images": [
+    ]
   }
 ]
